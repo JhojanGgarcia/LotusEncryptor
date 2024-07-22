@@ -1,0 +1,99 @@
+.flyin {
+  animation: fly-in 0.1s ease-out;
+  -webkit-animation: fly-in 0.1s ease-out;
+}
+@keyframes fly-in {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.flyinup {
+  animation: fly-in-up 0.1s ease-out;
+  -webkit-animation: fly-in-up 0.1s ease-out;
+}
+@keyframes fly-in-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+.zoomin {
+  animation: zoom-in 0.2s ease-out;
+  -webkit-animation: zoom-in 0.2s ease-out;
+}
+@keyframes zoom-in {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.arrow::after {
+  content: '';
+  position: absolute;
+  top: -14px; /* Ajusta esta distancia según necesites */
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 8px;
+  border-style: solid;
+  z-index: -1;
+  border-color: transparent transparent rgba(0, 0, 0, 0.808) transparent; /* Cambia 'white' al color que necesites */
+}
+.zoomout {
+  animation: zoom-out 10s ease-out;
+  -webkit-animation: zoom-out 10s ease-out;
+}
+@keyframes zoom-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+.tada {
+  animation: tada 1s ease-out;
+  -webkit-animation: tada 1s ease-out;
+}
+@keyframes tada {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  10%,
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+  40%,
+  60%,
+  80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
