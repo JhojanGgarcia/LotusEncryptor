@@ -314,6 +314,7 @@ export default function Encrypt() {
                             >
                               {!isCopied ? (
                                 <svg
+                                  className="text-white dark:text-black"
                                   viewBox="0 0 24 24"
                                   width="24"
                                   height="24"
@@ -337,6 +338,7 @@ export default function Encrypt() {
                                 </svg>
                               ) : (
                                 <motion.svg
+                                  className="text-white dark:text-black"
                                   viewBox="0 0 24 24"
                                   width="24"
                                   height="24"
@@ -379,6 +381,7 @@ export default function Encrypt() {
                             >
                               {!isCopied ? (
                                 <svg
+                                  className="text-white dark:text-black"
                                   viewBox="0 0 24 24"
                                   width="24"
                                   height="24"
@@ -402,6 +405,7 @@ export default function Encrypt() {
                                 </svg>
                               ) : (
                                 <motion.svg
+                                  className="text-white dark:text-black"
                                   viewBox="0 0 24 24"
                                   width="24"
                                   height="24"
@@ -461,6 +465,7 @@ export default function Encrypt() {
                             >
                               {!isCopied ? (
                                 <svg
+                                  className="text-white dark:text-black"
                                   viewBox="0 0 24 24"
                                   width="24"
                                   height="24"
@@ -484,6 +489,7 @@ export default function Encrypt() {
                                 </svg>
                               ) : (
                                 <motion.svg
+                                  className="text-white dark:text-black"
                                   viewBox="0 0 24 24"
                                   width="24"
                                   height="24"
@@ -526,6 +532,7 @@ export default function Encrypt() {
                             >
                               {!isCopied ? (
                                 <svg
+                                  className="text-white dark:text-black"
                                   viewBox="0 0 24 24"
                                   width="24"
                                   height="24"
@@ -549,6 +556,7 @@ export default function Encrypt() {
                                 </svg>
                               ) : (
                                 <motion.svg
+                                  className="text-white dark:text-black"
                                   viewBox="0 0 24 24"
                                   width="24"
                                   height="24"
@@ -591,6 +599,7 @@ export default function Encrypt() {
                             >
                               {!isCopied ? (
                                 <svg
+                                  className="text-white dark:text-black"
                                   viewBox="0 0 24 24"
                                   width="24"
                                   height="24"
@@ -615,6 +624,7 @@ export default function Encrypt() {
                                 </svg>
                               ) : (
                                 <motion.svg
+                                  className="text-white dark:text-black"
                                   viewBox="0 0 24 24"
                                   width="24"
                                   height="24"
@@ -666,6 +676,7 @@ export default function Encrypt() {
                             >
                               {!isCopied ? (
                                 <svg
+                                  className="text-white dark:text-black"
                                   viewBox="0 0 24 24"
                                   width="24"
                                   height="24"
@@ -689,6 +700,7 @@ export default function Encrypt() {
                                 </svg>
                               ) : (
                                 <motion.svg
+                                  className="text-white dark:text-black"
                                   viewBox="0 0 24 24"
                                   width="24"
                                   height="24"
@@ -731,6 +743,7 @@ export default function Encrypt() {
                             >
                               {!isCopied ? (
                                 <svg
+                                  className="text-white dark:text-black"
                                   viewBox="0 0 24 24"
                                   width="24"
                                   height="24"
@@ -754,6 +767,7 @@ export default function Encrypt() {
                                 </svg>
                               ) : (
                                 <motion.svg
+                                  className="text-white dark:text-black"
                                   viewBox="0 0 24 24"
                                   width="24"
                                   height="24"
@@ -805,6 +819,7 @@ export default function Encrypt() {
                             >
                               {!isCopied ? (
                                 <svg
+                                  className="text-white dark:text-black"
                                   viewBox="0 0 24 24"
                                   width="24"
                                   height="24"
@@ -828,6 +843,7 @@ export default function Encrypt() {
                                 </svg>
                               ) : (
                                 <motion.svg
+                                  className="text-white dark:text-black"
                                   viewBox="0 0 24 24"
                                   width="24"
                                   height="24"
