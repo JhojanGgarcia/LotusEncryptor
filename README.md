@@ -12,7 +12,7 @@
 
 
 
-- **Lotus**, my second creation, is a web site that provides functionality for encryption algorithms that are both currently in use and are obsolete.
+- **Lotus**, my second creation, is a website that provides functions for encryption algorithms currently in use.
 
 
 
